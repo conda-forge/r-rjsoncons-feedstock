@@ -1,4 +1,4 @@
-{% set version = '1.0.0' %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -13,8 +13,8 @@ source:
   sha256: f942064480e98fc62cc6f292ce14af84999037f09fc740daf39693907872cff8
 
 build:
-  merge_build_host: True  # [win]
-  number: 0
+  merge_build_host: true  # [win]
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -49,12 +49,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=rjsoncons
   license: BSL-1.0
-  summary: The 'jsoncons' <https://danielaparker.github.io/jsoncons/> 'C++' header-only library
-    constructs representations from a 'JSON' character vector, and provides extensions
-    for flexible queries and other operations on 'JSON' objects. This package has simple
-    'R' wrappers to support 'JSONpath' and 'JMESpath' queries into 'JSON' strings or
-    'R' objects. The 'jsoncons' library is also be easily linked to other packages for
-    direct access to 'C++' functionality.
+  summary: The 'jsoncons' <https://danielaparker.github.io/jsoncons/> 'C++' header-only library constructs representations from a 'JSON' character vector, and provides extensions for flexible queries and other operations on 'JSON' objects. This package has simple 'R' wrappers to support 'JSONpath' and 'JMESpath' queries
+    into 'JSON' strings or 'R' objects. The 'jsoncons' library is also be easily linked to other packages for direct access to 'C++' functionality.
   license_family: OTHER
 
 extra:

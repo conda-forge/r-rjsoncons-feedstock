@@ -3,11 +3,13 @@ About r-rjsoncons-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rjsoncons-feedstock/blob/main/LICENSE.txt)
 
-Home: https://CRAN.R-project.org/package=rjsoncons
+Home: https://mtmorgan.github.io/rjsoncons/
 
 Package license: BSL-1.0
 
 Summary: The 'jsoncons' <https://danielaparker.github.io/jsoncons/> 'C++' header-only library constructs representations from a 'JSON' character vector, and provides extensions for flexible queries and other operations on 'JSON' objects. This package has simple 'R' wrappers to support 'JSONpath' and 'JMESpath' queries into 'JSON' strings or 'R' objects. The 'jsoncons' library is also be easily linked to other packages for direct access to 'C++' functionality.
+
+Development: https://github.com/mtmorgan/rjsoncons
 
 Current build status
 ====================

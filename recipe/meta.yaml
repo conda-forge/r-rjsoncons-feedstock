@@ -52,9 +52,10 @@ about:
   home: https://mtmorgan.github.io/rjsoncons/
   dev_url: https://github.com/mtmorgan/rjsoncons
   license: BSL-1.0
+  license_family: OTHER
+  license_file: LICENSE_1_0.txt
   summary: The 'jsoncons' <https://danielaparker.github.io/jsoncons/> 'C++' header-only library constructs representations from a 'JSON' character vector, and provides extensions for flexible queries and other operations on 'JSON' objects. This package has simple 'R' wrappers to support 'JSONpath' and 'JMESpath' queries
     into 'JSON' strings or 'R' objects. The 'jsoncons' library is also be easily linked to other packages for direct access to 'C++' functionality.
-  license_family: OTHER
 
 extra:
   recipe-maintainers:

@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rjsoncons_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rjsoncons/rjsoncons_{{ version }}.tar.gz
-  sha256: f942064480e98fc62cc6f292ce14af84999037f09fc740daf39693907872cff8
+  sha256: f90203527691b5f280e0e17f82ae62f5305a520057b124867d8d900a316fd50a
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/

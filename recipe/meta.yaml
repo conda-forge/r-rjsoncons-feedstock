@@ -25,6 +25,7 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
     - r-cli                        # [build_platform != target_platform]
     - r-cpp11                      # [build_platform != target_platform]
+    - r-tibble                     # [build_platform != target_platform]
     - {{ compiler('c') }}          # [not win]
     - {{ stdlib("c") }}            # [not win]
     - {{ compiler('m2w64_c') }}    # [win]
@@ -40,11 +41,13 @@ requirements:
     - r-base
     - r-cli
     - r-cpp11
+    - r-tibble
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
     - r-cli
     - r-cpp11
+    - r-tibble
 
 test:
   commands:

@@ -1,4 +1,4 @@
-{% set version = "1.3.2" %}
+{% set version = "1.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rjsoncons_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rjsoncons/rjsoncons_{{ version }}.tar.gz
-  sha256: 890ab3508f1dd5d4f2ac208de13d35c6c91639ef8c4ba38782d07e9606dd2721
+  sha256: ac63edf2be9b9857fc28c1dfa6a21899dbddd2cf70d655f9d86f15a9c4f3554d
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -58,8 +58,8 @@ about:
   license: BSL-1.0
   license_family: OTHER
   license_file: LICENSE_1_0.txt
-  summary: The 'jsoncons' <https://danielaparker.github.io/jsoncons/> 'C++' header-only library constructs representations from a 'JSON' character vector, and provides extensions for flexible queries and other operations on 'JSON' objects. This package has simple 'R' wrappers to support 'JSONpath' and 'JMESpath' queries
-    into 'JSON' strings or 'R' objects. The 'jsoncons' library is also be easily linked to other packages for direct access to 'C++' functionality.
+  summary: The 'jsoncons' <https://danielaparker.github.io/jsoncons/> 'C++' header-only library constructs representations from a 'JSON' character vector, and provides extensions for flexible queries and other operations on 'JSON' objects. This package has simple 'R' wrappers to support 'JSONpath' and 'JMESpath' 
+    queries into 'JSON' strings or 'R' objects. The 'jsoncons' library is also be easily linked to other packages for direct access to 'C++' functionality.
 
 extra:
   recipe-maintainers:
